@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>আমার ব্যবসা</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .product-list li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    form {
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 10px;
+      background-color: #28a745;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #343a40;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🌟 আমার ব্যবসা ওয়েবসাইট 🌟</h1>
+  <p>আপনার আস্থা, আমাদের প্রতিশ্রুতি</p>
+</header>
+
+<section>
+  <h2>আমাদের সম্পর্কে</h2>
+  <p>আমরা একটি নির্ভরযোগ্য অনলাইন ব্যবসা প্রতিষ্ঠান। আমাদের পণ্য সাশ্রয়ী দামে এবং দ্রুত সেবায় দেশের বিভিন্ন প্রান্তে পৌঁছে দেই।</p>
+  <img src="https://via.placeholder.com/800x300" alt="ব্যবসার ছবি" />
+</section>
+
+<section>
+  <h2>পণ্য তালিকা</h2>
+  <ul class="product-list">
+    <li>✅ টি-শার্ট - ২৫০ টাকা</li>
+    <li>✅ মোবাইল কভার - ১৫০ টাকা</li>
+    <li>✅ ব্যাগ - ৫৫০ টাকা</li>
+    <li>✅ হেডফোন - ৭৫০ টাকা</li>
+  </ul>
+</section>
+
+<section>
+  <h2>যোগাযোগ করুন</h2>
+  <form>
+    <label>আপনার নাম:</label>
+    <input type="text" placeholder="নাম লিখুন" required />
+    <label>মেসেজ:</label>
+    <textarea rows="4" placeholder="আপনার মেসেজ লিখুন" required></textarea>
+    <button type="submit">পাঠান</button>
+  </form>
+</section>
+
+<section>
+  <h2>আমাদের ফেসবুক পেজ</h2>
+  <a class="btn" href="https://facebook.com" target="_blank">ফেসবুক দেখুন</a>
+</section>
+
+<footer>
+  &copy; ২০২৫ আমার ব্যবসা | সর্বস্বত্ব সংরক্ষিত
+</footer>
+
+</body>
+</html>
